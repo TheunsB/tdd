@@ -16,3 +16,9 @@ Sprite (1)
 
 The vending machine should start up with a given amount of stock (i.e. 10 cola, 10 fanta, 10 sprite) and should keep track of the stock.
 The vending machine should provide a menu of choices, accept the choice as input. It should then require money to be input in the form of coins. It should then vend the drink if sufficient money was provided and also refund the user with change if too much was paid.
+
+To run the application:
+
+mvn clean install
+
+mvn spring-boot:run
